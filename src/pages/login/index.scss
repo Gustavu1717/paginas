@@ -1,0 +1,34 @@
+
+.pagina-login{
+    
+
+    .login{
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+        ;
+        align-items: center;
+
+        img{
+            height: 100px;
+            width: 120px;
+        }
+    }
+
+
+    .meio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .bt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
