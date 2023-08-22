@@ -1,5 +1,9 @@
-import Logo from '../../assets/images/Logo.png'
+import Logo from '../../assets/images/Logo.png';
+import Email from '../../assets/images/email.png';
+import senha from '../../assets/images/senha.png';
+
 import './index.scss';
+
 
 export default function Login() {
 
@@ -11,22 +15,30 @@ export default function Login() {
       <div className='login'>
         <img src={Logo} />
 
-      <div className='meio'> 
-        <div className='email'>
-          <img src='' />
-          <input />
+      <div className='meio'>
+        
+        <div className='sep'>  
+          <div className='email'>
+            <div id='esp'> 
+              <img src={Email} />
+              <input />
+            </div>
+          </div>
+
+          <div className='senha'>
+            <div id='esp'>
+              <img src={senha} />
+              <input />
+            </div>
+          </div>
+          <p> Esqueci minha senha </p>
         </div>
 
-        <div className='senha'>
-          <img src='' />
-          <input />
-        </div>
-
-        <p> Esqueci minha senha </p>
+        
       </div>
 
       <div className='bt'>
-        <button> Continuar </button>
+        <button> CONTINUAR </button>
         <p> Não tem uma conta? Cadastre-se agora </p>
       </div>
 

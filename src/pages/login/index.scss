@@ -12,23 +12,84 @@
         align-items: center;
 
         img{
-            height: 100px;
-            width: 120px;
+            height: 150px;
+            width: 168px;
         }
     }
 
 
+    p{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
+    input{
+        height: 30px;
+        width: 260px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid #000000;
+    }
+
+
     .meio{
+        
+        height: 140px;
+        width: 700px;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
 
+        .sep{
+            
+            height: 205px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            
+
+            #esp{
+                
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                height: 40px;
+                width: 320px;
+                
+            }
+
+        }
+
+
+        img{
+            height: 20px;
+            width: 22px;
+        }
     }
 
     .bt{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+        height: 100px;
+        width: 400px;
+
+        button{
+            color: #fff;
+            background-color: #000000;
+            border: none;
+            border-radius: 80px;
+            height: 45px;
+            width: 200px;
+            font-size: 19px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
     }
 
 }
